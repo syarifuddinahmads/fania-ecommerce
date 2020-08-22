@@ -1,0 +1,67 @@
+/*Custom Width Search Bar*/
+.hero__search__form {
+    width: 100% !important;
+    height: auto; !important;
+}
+
+.hero__search__categories{
+    width: 25% !important;
+}
+
+/*Custom Background Loader*/
+#preloder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #fafafa !important;
+}
+
+/*Custom Form Control Border Radius*/
+.form-control{
+    border-radius: 0 !important;
+}
+
+/*Custom Hover Anchor Tag*/
+a:hover {
+    color: #0056b3 !important;
+    text-decoration: none !important;
+}
+
+/*Custom Button Border Radius*/
+.btn{
+    border-radius: 0 !important;
+}
+
+/*Custom Category Product*/
+.category-product{
+    position: absolute !important;
+    width: 100% !important;
+}
+
+/*Custom Card*/
+.card{
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.14) !important;
+}
+
+/*Custom Navbar */
+.navbar{
+    box-shadow: 0 6px 6px rgba(0,0,0,.06) !important;
+}
+
+/*Custom Pages*/
+
+/*Custom Login Page*/
+.login-page{
+    background-image: url("../img/banner/banner-login.jpg");
+    background-size: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.login-card{
+    margin: 12.5% auto;
+}
+
